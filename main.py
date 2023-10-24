@@ -52,7 +52,7 @@ with col1:
         'Which age group would you like your content to target?',
         ('18-23', '24-29', '30-39', '40-49', '50-59', '60-69', '70-79', '80-100'))
     
-def get_hobby():
+def get_profession():
     input_text = st.text_input(label="Customers main profession", key="profession_input")
     return input_text
 
